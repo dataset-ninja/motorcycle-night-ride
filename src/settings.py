@@ -22,11 +22,11 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 ##################################
 LICENSE: License = License.CC_BY_4_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Automotive()]
-CATEGORY: Category = Category.SelfDriving()
+CATEGORY: Category = Category.Safety()
 
-CV_TASKS: List[CVTask] = [CVTask.SemanticSegmentation(), CVTask.ObjectDetection()]
+CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation(), CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [
-    AnnotationType.SemanticSegmentation(),
+    AnnotationType.InstanceSegmentation(),
     AnnotationType.ObjectDetection(),
 ]
 
@@ -71,7 +71,6 @@ REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = [
-    "Acme AI Ltd",
     "Sadhli Roomy",
     "Mominul Islam",
     "Abu Bakar Siddik Nayem",
