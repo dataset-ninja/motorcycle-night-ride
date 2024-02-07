@@ -4,4 +4,6 @@ The dataset consists of 200 images with 10697 labeled objects belonging to 6 dif
 
 Images in the Motorcycle Night Ride dataset have . All images are labeled (i.e. with annotations). There are no pre-defined <i>train/val/test</i> splits in the dataset. The dataset was released in 2023 by the ACME Technologies Ltd., Bangladesh.
 
-<img src="https://github.com/dataset-ninja/motorcycle-night-ride/raw/main/visualizations/poster.png">
+Here are the visualized examples for the classes:
+
+[Dataset classes](https://github.com/dataset-ninja/motorcycle-night-ride/raw/main/visualizations/classes_preview.webm)
