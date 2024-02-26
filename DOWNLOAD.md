@@ -1,6 +1,6 @@
 Dataset **Motorcycle Night Ride** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/w/M/P1/yNj7mNBKdLipLYfsWn6QIdhz6HH4gpobpmS9YzG4VDC1o2VG9YoMJtVPdNfFHEOUWlBov1RA9rJFsWjII7GQc5XOe8k9TDR100L36rAozqVCnG9keXVbjLUNsN3G.tar)
+ [Download](https://www.dropbox.com/scl/fi/c75qb4ex40b12nlo0sibd/motorcycle-night-ride-DatasetNinja.tar?rlkey=l2jwq4ouef779abljftm5uvhd&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
